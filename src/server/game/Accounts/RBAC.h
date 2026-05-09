@@ -300,7 +300,6 @@ enum RBACPermissions
     RBAC_PERM_COMMAND_GMNOTIFY                               = 468,
     RBAC_PERM_COMMAND_NAMEANNOUNCE                           = 469,
     RBAC_PERM_COMMAND_NOTIFY                                 = 470,
-    RBAC_PERM_COMMAND_WHISPERS                               = 471,
     RBAC_PERM_COMMAND_GROUP                                  = 472,
     RBAC_PERM_COMMAND_GROUP_LEADER                           = 473,
     RBAC_PERM_COMMAND_GROUP_DISBAND                          = 474,
@@ -676,6 +675,8 @@ enum RBACPermissions
     RBAC_PERM_COMMAND_CHARACTER_CHECK_PROFESSION             = 911,
     RBAC_PERM_COMMAND_GOBJECT_LOAD                           = 912,
     RBAC_PERM_COMMAND_BF_QUEUE                              = 913,
+    RBAC_PERM_COMMAND_PET_LIST                               = 914,
+    RBAC_PERM_COMMAND_PET_DELETE                             = 915,
     // custom permissions 1000+
     RBAC_PERM_MAX
 };
